@@ -6,6 +6,8 @@
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
   <link rel="stylesheet" type="text/css" href="css/menu.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+
 
 </head>
 <body>
@@ -13,10 +15,10 @@
 
     <header>
       <nav>
-        <a href="#"><p>Home</p></a>
+        <a href="index.html"><p>Home</p></a>
         <a href="#"><p>Hobby's</p></a>
         <a href="#"><p>Chats</p></a>
-        <a href="#"><p>Settings</p></a>
+        <a href="profile.html"><p>Settings</p></a>
       </nav>
     </header>
 
@@ -28,32 +30,37 @@
 
 <!-- Dit moet met javascript gemaakt worden met de data uit de database met een loop -->
 <!-- Ook moet er nog een ID gegeven worden aan de hobby -->
-      <div class="category hover">
+      <div class="category activeCat">
+        <div class="overlay"></div>
+        <img src="img/catalog/food1.jpg" alt="">
+        <p>[Naam]</p>
+      </div>
+
+      <div class="category activeCat">
+        <div class="overlay"></div>
+        <img src="img/catalog/food2.jpg" alt="">
+        <p>[Naam]</p>
+      </div>
+
+      <div class="category activeCat">
+        <div class="overlay"></div>
+        <img src="img/catalog/food3.jpg" alt="">
+        <p>[Naam]</p>
+      </div>
+
+      <div class="category activeCat">
+        <div class="overlay"></div>
         <img src="" alt="">
         <p>[Naam]</p>
       </div>
 
-      <div class="category hover">
+      <div class="category activeCat">
+        <div class="overlay"></div>
         <img src="" alt="">
         <p>[Naam]</p>
       </div>
 
-      <div class="category hover">
-        <img src="" alt="">
-        <p>[Naam]</p>
-      </div>
-
-      <div class="category hover">
-        <img src="" alt="">
-        <p>[Naam]</p>
-      </div>
-
-      <div class="category hover">
-        <img src="" alt="">
-        <p>[Naam]</p>
-      </div>
-
-      <div class="category hover">
+      <div class="category activeCat">
         <img src="" alt="">
         <p>[Naam]</p>
       </div>
@@ -65,5 +72,7 @@
 
 
   </main>
+  <script src="js/js.js"></script>
+
 </body>
 </html>
